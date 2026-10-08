@@ -1,0 +1,264 @@
+{
+  "_what": "THE SETTLED LIST's record (6 Oct 2026, chat 16): the formatting decisions that have actually been made, each with where it was made. qa/settled.py matches a built page against this; anything a page exhibits that is not in here is UNDECIDED and goes to the user. NOTHING is written in here that the user has not settled - a value Claude chose is not a decision.",
+  "properties": {
+    "*": {
+      "typeface": "EB Garamond",
+      "line height": "37.2px"
+    },
+    "p": {
+      "size": "18px",
+      "colour": "WD1",
+      "weight": "400",
+      "slant": "normal",
+      "alignment": "start",
+      "first-line indent": "0px",
+      "left edge": [
+        "40px"
+      ]
+    },
+    "heading": {
+      "size": "20px",
+      "colour": "rgb(4, 50, 255)",
+      "weight": "400",
+      "slant": "normal",
+      "alignment": "start",
+      "first-line indent": "0px",
+      "left edge": "40px"
+    },
+    "page": {
+      "background": "rgb(245, 238, 227)",
+      "text column": "1220px"
+    },
+    "li": {
+      "alignment": "left",
+      "size": "18px",
+      "colour": "rgb(43, 43, 43)",
+      "weight": "400",
+      "slant": "normal",
+      "first-line indent": "0px",
+      "left edge": [
+        "40px",
+        "71px",
+        "102px",
+        "133px"
+      ]
+    },
+    "quote": {
+      "size": "18px",
+      "slant": "italic",
+      "weight": "400",
+      "colour": "WD1",
+      "first-line indent": "0px",
+      "line height": "43.2px",
+      "alignment": [
+        "center",
+        "left"
+      ],
+      "left edge": "40px"
+    },
+    "sub": {
+      "weight": "700",
+      "slant": "normal",
+      "alignment": "start",
+      "size": "18px",
+      "colour": "WD1",
+      "first-line indent": "0px",
+      "left edge": "40px"
+    },
+    "bold": {
+      "weight": "700",
+      "slant": "normal",
+      "alignment": "start",
+      "size": "18px",
+      "colour": "WD1",
+      "first-line indent": "0px",
+      "left edge": "40px"
+    },
+    "numbered": {
+      "weight": "700",
+      "slant": "normal",
+      "alignment": "start",
+      "size": "18px",
+      "colour": "WD1",
+      "first-line indent": "0px",
+      "left edge": "40px"
+    }
+  },
+  "_properties_decided_by": {
+    "typeface": "THE 4.1 TEMPLATE (5 Oct, chat 13) - the site's lettering, every page",
+    "line height": "THE ONE LINE PITCH (4 Oct, chat 9) - every text block that wraps has the same line-to-line distance at a given width; 37.2px at desktop widths, confirmed 6 Oct chat 15 ('The price of an odd figure is nothing')",
+    "p size / colour": "THE 4.1 TEMPLATE - body 18px; the colour of any run comes from the Word document word for word (checked by WD1, qa/word_check.py), so colour is not a template figure",
+    "heading size / colour": "THE 4.1 TEMPLATE - the blue heading 20px #0432FF",
+    "page background": "Oat #F5EEE3, THE 4.1 TEMPLATE",
+    "alignment / indents": "6 Oct 2026 (chat 16), your answers 7 and 8: alignment as the pages have it - a quotation centred where the source centres it, otherwise left; each list level 31 in from the one outside it (40, 71, 102, 133 from the page edge)",
+    "page text column": "6 Oct 2026 (chat 17), your words: \"I prefer 950 to 770, but I prefer 1220 to both\" - the page keeps the width it has. SUPERSEDES your answer 10 of this morning (about 770) and the 950 of this afternoon."
+  },
+  "inner": {
+    "*": 14,
+    "quote": 20
+  },
+  "_inner_decided_by": "THE ONE LINE PITCH + 'between lines of text 14' (6 Oct, chat 15): the wrapped lines inside any one block stand 14px apart, letters to letters",
+  "figures": {
+    "PARA_SPACE": 25,
+    "BOLD_SPACE": 40,
+    "NUM_BOLD_SPACE": 30,
+    "DASH_SPACE": 20,
+    "NUM_ITEM_SPACE": 20,
+    "SHORT_NUM_ITEM_SPACE": 16,
+    "LIST_EDGE_SPACE": 30,
+    "HEADING_SPACE": 13,
+    "SUBHEAD_SPACE": 20,
+    "TAB_UNDER_SPACE": 20,
+    "TAB_LINE_SPACE": 30,
+    "QUOTE_SPACE": 25,
+    "QUOTE_INNER_SPACE": 20,
+    "ABOVE_HEADING_SPACE": 45,
+    "QUOTE_AFTER_SPACE": 25,
+    "LIST_SPACE": 30,
+    "SEC_ABOVE": 30,
+    "SEC_BELOW": 30,
+    "QUOTE_SIZE": 18
+  },
+  "_figures_decided_by": "THE TEMPLATE'S TEXT SPACES (your figures of 5 and 6 Oct 2026, chats 13 and 15), site/pages/source_steps_page.py TEMPLATE_SPACES | 6 Oct 2026 (chat 17), your rule: \"all lists have a space of 30 above and below. the list sets the space, not what comes after it\" - LIST_SPACE 30 at both edges of every list (SUPERSEDES LIST_EDGE_SPACE 25 and TAB_LINE_SPACE 40 at a list edge) | 7 Oct 2026 (chat 19), your rule: \"30 above 30 below on this and every page\" - SEC_ABOVE 30 and SEC_BELOW 30 (were 36 and 28), so a beige line measures 62 letters to letters across it; checked by IK1 (qa/ink_check.py).",
+  "spaces": {
+    "p>line heading": 62,
+    "p>line p": 62,
+    "li>line heading": 62,
+    "quote>line heading": 62,
+    "p>heading": 28,
+    "li>heading": 28,
+    "quote>heading": 28
+  },
+  "_spaces_decided_by": "THE SECTION LINE RULE (5 Oct, chat 13): one beige line between sections, 36px above and 28px below - measured across the line, 36 + 2 + 28 = 66px letters to letters | 7 Oct 2026 (chat 19): the four line spaces are 62 (30 + the 2px line + 30).",
+  "pages": {
+    "h11t": {
+      "spaces": {
+        "p>p": [
+          16,
+          28,
+          29
+        ]
+      },
+      "_why": "Why This Website? only - the poem 'Not Waving but Drowning' keeps the spacing of your source (your words, 6 Oct 2026: 'this is a poem, which has unique spacing requirements, so don't create a rule or change the template, just space the poem on the page as it is in the original'): 16 between its lines, 28 between stanzas, 29 under its title",
+      "properties": {
+        "p": {
+          "alignment": [
+            "start",
+            "center"
+          ]
+        }
+      },
+      "_poem_centred": "6 Oct 2026 (chat 16), your edit: the poem 'Not Waving but Drowning' centred on the page with each line centred - this page only"
+    },
+    "h11t_fin": {
+      "spaces": {
+        "p>p": [
+          16,
+          28,
+          29
+        ]
+      },
+      "_why": "Why This Website? only - the poem 'Not Waving but Drowning' keeps the spacing of your source (your words, 6 Oct 2026: 'this is a poem, which has unique spacing requirements, so don't create a rule or change the template, just space the poem on the page as it is in the original'): 16 between its lines, 28 between stanzas, 29 under its title",
+      "properties": {
+        "p": {
+          "alignment": [
+            "start",
+            "center"
+          ]
+        }
+      },
+      "_poem_centred": "6 Oct 2026 (chat 16), your edit: the poem 'Not Waving but Drowning' centred on the page with each line centred - this page only"
+    },
+    "card_home": {
+      "_why": "THE HOME AUDIENCE CARD - its ARRANGEMENT, settled by you, not by the essay template: \"This is the look I want for every audience card\" (5 Oct 2026, chat 12), \"Which arrangement do you want: A\" (5 Oct, chat 14 - every photo whole in equal frames, three cards to a row) and, on the centred introduction, \"first section matches this section on the example site. no change needed\" (5 Oct). The card's TEXT is the essay pages' (your answer 11 of 6 Oct 2026, chat 16) and is matched against the figures above, as on any page.",
+      "properties": {
+        "p": {
+          "alignment": [
+            "start",
+            "center"
+          ],
+          "left edge": [
+            "220px",
+            "431px",
+            "823px",
+            "40px"
+          ]
+        },
+        "quote": {
+          "alignment": [
+            "center",
+            "left"
+          ],
+          "left edge": [
+            "220px",
+            "40px"
+          ],
+          "slant": [
+            "normal",
+            "italic"
+          ]
+        },
+        "page": {
+          "text column": "1220px"
+        }
+      },
+      "_quotation": "The introduction's quotation and its attribution are one line of the document, so the italic sits on the quoted words and the attribution stays upright - your answer 6 (6 Oct 2026, 'all quotations and book titles italicised; where a source italicises anything else, follow the source') with the 4.1 template's upright attribution.",
+      "_width": "6 Oct 2026 (chat 17), your answer A: the audience card keeps its present width - three cards to a row, a summary line 357px. The 770 of your answer 10 is the line length of running text on the ESSAY pages; a card's summaries already break at about 55 letters inside their columns."
+    },
+    "p41": {
+      "_why": "4.1 Play - varieties and characteristics. Your edits of 5 Oct 2026 (chat 13) on the Work / Play definitions, your words: \"the following edits do not impact the template as they are a result of a unique and rare formatting section in this document only\" - the two definition lines and the Antonyms lines keep 34 of space and the definition block's own lines stand 21.2 apart; and your edit 5 of the third list, \"About this article = not bold. Space above 30\".",
+      "inner": {
+        "p": [
+          14,
+          21.2
+        ]
+      },
+      "spaces": {
+        "li>p": [
+          25,
+          30
+        ],
+        "p>p": [
+          25,
+          34
+        ]
+      },
+      "properties": {
+        "p": {
+          "first-line indent": [
+            "0px",
+            "-152px"
+          ]
+        }
+      },
+      "_tab_columns": "The Work / Play definition lines are Word's tab columns (THE TAB-COLUMN RULE, 4 Oct 2026): a line that wraps hangs under its column, so its first line starts 152px further left than the rest of the block. This page's own formatting, as your edits of 5 Oct say."
+    }
+  },
+  "_answers_6oct_chat16": {
+    "1 quotations, how open their lines are": "20 - your figure, confirmed 6 Oct",
+    "2 list items, how open their lines are": "14 - the same as a paragraph",
+    "3 the space above a blue heading": "28",
+    "4 list items": "left-aligned, not justified",
+    "5 bold": "as the pages have it - sub-headings, numbered bold lines bold; blue headings regular",
+    "6 italic": "every quotation italic, and every book title italic; where a source document italicises anything else, follow the source",
+    "7 alignment": "as the pages have it",
+    "9 sizes": "quotations 18 (was 17); everything else unchanged",
+    "11 the audience card": "the card's text brought in line with the essay pages",
+    "10 the width of the text column": "about 770 across, roughly 75 letters a line - done in one pass with the thirteen September pages, after the next document",
+    "12 the September pages": "all thirteen rebuilt in one pass after the next document, with the narrower column in the same pass",
+    "8 indents": "as they are - each list level steps 31 in from the one outside it",
+    "text to a quotation": "25 both ways - into a quotation and out of it (was 40), your instruction, every document and the template"
+  },
+  "_indent_levels": "a list level steps 31 in from the one outside it: level 1 at 31, level 2 at 62, level 3 at 93, measured from where a paragraph starts",
+  "pending": {
+    "the width of the text column": "770 - to be done in one pass with the thirteen September pages, after the next document"
+  },
+  "_user_resolution_7oct_2026": {
+    "when": "2026-10-07",
+    "source": "user click, this chat, after the record/template conflict was put to them",
+    "text to a quotation and quotation to text": "25 both ways (record; template's 40 withdrawn)",
+    "space above a blue heading": "45 (template Look section; record's 28 withdrawn)",
+    "quotation size": "18 (record; template's 17 withdrawn)",
+    "unchanged": "after a blue heading 13; lines inside one quotation 20; beige line 30/30; paragraph space 25"
+  }
+}
