@@ -117,7 +117,7 @@
     "LIST_SPACE": 30,
     "SEC_ABOVE": 30,
     "SEC_BELOW": 30,
-    "QUOTE_SIZE": 18
+    "QUOTE_SIZE": 17
   },
   "_figures_decided_by": "THE TEMPLATE'S TEXT SPACES (your figures of 5 and 6 Oct 2026, chats 13 and 15), site/pages/source_steps_page.py TEMPLATE_SPACES | 6 Oct 2026 (chat 17), your rule: \"all lists have a space of 30 above and below. the list sets the space, not what comes after it\" - LIST_SPACE 30 at both edges of every list (SUPERSEDES LIST_EDGE_SPACE 25 and TAB_LINE_SPACE 40 at a list edge) | 7 Oct 2026 (chat 19), your rule: \"30 above 30 below on this and every page\" - SEC_ABOVE 30 and SEC_BELOW 30 (were 36 and 28), so a beige line measures 62 letters to letters across it; checked by IK1 (qa/ink_check.py).",
   "spaces": {
