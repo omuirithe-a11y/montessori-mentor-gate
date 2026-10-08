@@ -251,7 +251,7 @@
   },
   "_indent_levels": "a list level steps 31 in from the one outside it: level 1 at 31, level 2 at 62, level 3 at 93, measured from where a paragraph starts",
   "pending": {
-    "the width of the text column": "770 - to be done in one pass with the thirteen September pages, after the next document"
+    "the width of the text column": "CLOSED 7 Oct 2026. The column is 1220px (chat 17: \"I prefer 1220 to both\"). The 770 line is superseded. The thirteen September pages stay for their own pass and are not the next document."
   },
   "_user_resolution_7oct_2026": {
     "when": "2026-10-07",
@@ -260,5 +260,6 @@
     "space above a blue heading": "45 (template Look section; record's 28 withdrawn)",
     "quotation size": "18 (record; template's 17 withdrawn)",
     "unchanged": "after a blue heading 13; lines inside one quotation 20; beige line 30/30; paragraph space 25"
-  }
+  },
+  "_column_note_closed": "2026-10-07 user asked to mark the 770 pending line closed. 1220 stands. September pages are a later pass."
 }
